@@ -1,0 +1,38 @@
+// Errors
+export const GET_ERRORS = 'GET_ERRORS';
+
+// Products
+export const GET_PRODUCT = "GET_PRODUCT";
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
+export const GET_SINGLE_PRODUCT = "GET_SINGLE_PRODUCT";
+
+// Category
+export const GET_CATEGORY = "GET_CATEGORY";
+export const GET_CATEGORYS = "GET_CATEGORYS";
+export const GET_ALL_CATEGORYS = "GET_ALL_CATEGORYS";
+export const TOGGLE_CATEGORY_HIDDEN = 'TOGGLE_CATEGORY_HIDDEN';
+
+// Users
+export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_REFERRALS = "GET_REFERRALS";
+export const GET_USER_DETAIL = "GET_USER_DETAIL";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+// Transactions
+export const GET_USER_WALLET = 'GET_USER_WALLET';
+export const GET_ALL_WALLETS = 'GET_ALL_WALLETS';
+export const GET_ALL_TRANSACTIONS = 'GET_ALL_TRANSACTIONS';
+export const GET_USER_TRANSACTIONS = 'GET_USER_TRANSACTIONS';
+
+// Cart
+export const ADD_ITEM = 'ADD_ITEM';
+export const CLEAR_CART = 'CLEAR_CART';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const TOGGLE_CART_HIDDEN = 'TOGGLE_CART_HIDDEN';
+export const CLEAR_ITEM_FROM_CART = 'CLEAR_ITEM_FROM_CART';
+
+// Order
+export const GET_ORDERS = 'GET_ORDERS';
+export const GET_ORDER_DETAILS = 'GET_ORDER_DETAILS';
