@@ -3,7 +3,6 @@ import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { logout, getUser } from '../../actions/user.actions';
 import { connect, useSelector, useDispatch } from 'react-redux';
-// import { sideBarHeader, colorPicker } from './actions';
 
 const toFirstCharUppercase = (name) => name.charAt(0).toUpperCase() + name.slice(1);
 
@@ -15,13 +14,8 @@ const SideBar = (props) => {
     const authUser = user !== null && user !== undefined && user
 
     useEffect(() => {
-        // sideBarHeader();
-        // colorPicker();
         dispatch(getUser(authUser.user_id));
     }, [dispatch, authUser.user_id]);
-
-    // const { user_details } = useSelector(state => state.users)
-    // const user_detail = user_details !== null && user_details !== undefined && user_details
     
     return (
         <div>
@@ -89,7 +83,7 @@ const SideBar = (props) => {
                                 <Link to="/user/order">
                                     <span className="tb-sidebar-link-title">
                                         <span className="tb-sidebar-link-icon"><i className="material-icons">assignment</i></span>
-                                        <span className="tb-sidebar-link-text">Order</span>
+                                        <span className="tb-sidebar-link-text">Order History</span>
                                     </span>
                                 </Link>
                             </li>
